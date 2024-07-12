@@ -6,8 +6,29 @@
     <description>Recent content on Hugo Profile</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jul 2024 12:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Two</title>
+      <link>http://localhost:1313/projects/project-two/</link>
+      <pubDate>Wed, 03 Jul 2024 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-two/</guid>
+      <description>Project Two Description of project two.</description>
+    </item>
+    <item>
+      <title>Project One</title>
+      <link>http://localhost:1313/projects/project-one/</link>
+      <pubDate>Tue, 02 Jul 2024 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-one/</guid>
+      <description>Project One Description of project one.</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Tue, 02 Jul 2024 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description> Publication Title 1 - Description of publication one. Publication Title 2 - Description of publication two. Publication Title 3 - Description of publication three. </description>
+    </item>
     <item>
       <title>Render Math With Mathjax</title>
       <link>http://localhost:1313/blogs/math/</link>

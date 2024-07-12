@@ -231,13 +231,6 @@ Example | Hugo Profile
                     
 
                     
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#projects"
-                            aria-label="projects">
-                            Projects
-                        </a>
-                    </li>
-                    
 
                     
                     <li class="nav-item navbar-text">
@@ -274,9 +267,19 @@ Example | Hugo Profile
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/gallery" title="Blog posts">
+                        <a class="nav-link" href="/projects" title="Project posts">
                             
-                            Gallery
+                            Projects
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/publications" title="Blog posts">
+                            
+                            Publications
                         </a>
                     </li>
                     
@@ -321,6 +324,46 @@ Example | Hugo Profile
             <div class="card-columns">
                 <div class="card h-100">
                     
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/projects/project-two/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Project Two">Project Two</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p>Project Two Description of project two.</p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Jul 3, 2024</span>
+                        <a href="/projects/project-two/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/projects/project-one/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Project One">Project One</h5>
+                        </a>
+                        <div class="card-text secondary-font">
+                            <p>Project One Description of project one.</p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">Jul 2, 2024</span>
+                        <a href="/projects/project-one/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
                     <div class="card-header">
                         <a href="/blogs/math/">
                             <img src="/images/mathjax.png" class="card-img-top" alt="Render Math With Mathjax">
@@ -346,60 +389,6 @@ $$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow …</p>
             </div>
         </div>
         
-        <div class="col-lg-4 col-md-6 my-3">
-            <div class="card-columns">
-                <div class="card h-100">
-                    
-                    <div class="card-header">
-                        <a href="/blogs/markdown-syntax/">
-                            <img src="/images/post.jpg" class="card-img-top" alt="Markdown Syntax">
-                        </a>
-                    </div>
-                    
-                    <div class="card-body bg-transparent p-4 shadow-sm">
-                        <a href="/blogs/markdown-syntax/" class="primary-font card-title">
-                            <h5 class="card-title bg-transparent" title="Markdown Syntax">Markdown Syntax</h5>
-                        </a>
-                        <div class="card-text secondary-font">
-                            <p>Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus …</p>
-                        </div>
-                    </div>
-                    <div class="mt-auto post-footer bg-transparent py-3">
-                        <span class="float-start bg-transparent">Apr 3, 2021</span>
-                        <a href="/blogs/markdown-syntax/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 my-3">
-            <div class="card-columns">
-                <div class="card h-100">
-                    
-                    <div class="card-header">
-                        <a href="/blogs/emoji-support/">
-                            <img src="/images/post.jpg" class="card-img-top" alt="Emoji Support">
-                        </a>
-                    </div>
-                    
-                    <div class="card-body bg-transparent p-4 shadow-sm">
-                        <a href="/blogs/emoji-support/" class="primary-font card-title">
-                            <h5 class="card-title bg-transparent" title="Emoji Support">Emoji Support</h5>
-                        </a>
-                        <div class="card-text secondary-font">
-                            <p>Emoji can be enabled in a Hugo project in a number of ways. :zap:
-Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.
-To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in …</p>
-                        </div>
-                    </div>
-                    <div class="mt-auto post-footer bg-transparent py-3">
-                        <span class="float-start bg-transparent">Apr 3, 2021</span>
-                        <a href="/blogs/emoji-support/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
         <div class="row justify-content-center">
             <div class="col-auto m-3">
                 
@@ -417,10 +406,13 @@ To enable emoji globally, set enableEmoji to true in your site’s configuration
         <a href="/tags/example/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
       </li>
       <li class="page-item">
+        <a href="/tags/example/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
+      </li>
+      <li class="page-item">
         <a href="/tags/example/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
       </li>
       <li class="page-item">
-        <a href="/tags/example/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/tags/example/page/3/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
     </ul>
             </div>

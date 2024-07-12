@@ -6,8 +6,22 @@
     <description>Recent content in Example on Hugo Profile</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jul 2024 12:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Two</title>
+      <link>http://localhost:1313/projects/project-two/</link>
+      <pubDate>Wed, 03 Jul 2024 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-two/</guid>
+      <description>Project Two Description of project two.</description>
+    </item>
+    <item>
+      <title>Project One</title>
+      <link>http://localhost:1313/projects/project-one/</link>
+      <pubDate>Tue, 02 Jul 2024 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-one/</guid>
+      <description>Project One Description of project one.</description>
+    </item>
     <item>
       <title>Render Math With Mathjax</title>
       <link>http://localhost:1313/blogs/math/</link>
